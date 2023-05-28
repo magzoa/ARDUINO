@@ -32,4 +32,15 @@ Serial.println("Distancia: ");
 Serial.print (distancia);    // imprimimos la distancia en cm
 Serial.println ("cm");
 delay (1000);
+
+
+if(distancia<=10){
+
+
+Serial.print("Prender Foco");
+
+
+
+}
+
 }

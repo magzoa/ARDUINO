@@ -50,7 +50,7 @@ Serial.println("Motor 1 Forward"); // Prints out “Motor 1 Forward” on the se
 Serial.println("   "); // Creates a blank line printed on the serial monitor
 break;
 
-case '3': // Motor 1 Reverse
+case '2': // Motor 1 Reverse
 analogWrite(speedPinA, 255);
 digitalWrite(dir1PinA, HIGH);
 digitalWrite(dir2PinA, LOW);
@@ -60,7 +60,7 @@ break;
 
 //______________Motor 2______________
 
-case '4': // Motor 2 Forward
+case '3': // Motor 2 Forward
 analogWrite(speedPinB, 255);
 digitalWrite(dir1PinB, LOW);
 digitalWrite(dir2PinB, HIGH);
@@ -68,7 +68,7 @@ Serial.println("Motor 2 Forward");
 Serial.println("   ");
 break;
 
-case '6': // Motor 2 Reverse
+case '4': // Motor 2 Reverse
 analogWrite(speedPinB, 255);
 digitalWrite(dir1PinB, HIGH);
 digitalWrite(dir2PinB, LOW);
